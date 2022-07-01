@@ -223,7 +223,7 @@ O sistema é montado a partir de componentes já existentes. Pode ser dirigido a
 
 ## Estágios de teste
 
-### Teste de desenvolmento ou de componente
+### Teste de desenvolvimento ou de componente
 
 - Componentes individuais são testados independentemente
 - Componentes podem ser funções ou objetos, ou agrupamentos coerentes dessas entidades
