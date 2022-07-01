@@ -30,7 +30,7 @@
 - Definir as relações e fronteiras do sistema
 - Considerar sistemas inter-relacionados
 
-# Construindo uma *casa* _versus_ um *software*
+# Construindo uma _casa_ _versus_ um _software_
 
 ## Casa
 
@@ -59,27 +59,27 @@
 # Fatores-chave que mudaram a prática da engenharia de software
 
 - Aspecto crítico do tempo para entrega do produto ao mercado, no caso de produtos comerciais
-- Mudanças na eonomia da computação (redução dos custos de hardware e aumento nos custos de desenvolvimento e manutenção)
+- Mudanças na economia da computação (redução dos custos de hardware e aumento nos custos de desenvolvimento e manutenção)
 - Disponibilidade poderosa da computação em desktops
 - Aumento das redes locais e remotas
 - Disponibilidade e adoção da tecnologia orientada a objetos
 - Uso de interfaces gráficas
 - Imprevisibilidade do modelo de desenvolvimento de software cascata
 
-# Disciplia de engenharia de software de Wasserman
+# Disciplina de engenharia de software de Wasserman
 
 - Abstração
 - Métodos e notações de análise e projeto
 - Protótipo da interface com o usuário
 - Arquitetura de software
 - Processo de software
-- Reuso
+- Reúso
 - Medição
 - Ferramentas e ambientes integrados
 
 # Exemplos de sistema de informação
 
-- Piccadilu Television: TV regional britânica
+- Piccadily Television: TV regional britânica
 - Anunciante comercial tem diversas alternativas
   - Propagandas de bebidas alcoólicas só podem ser apresentadas das 21 horas
   - Se um atore está em um programa, então um anúncio com o mesmo ator não pode ser transmitido antes de 45 minutos após o término do programa
@@ -95,13 +95,13 @@
 
 ## O processo de software
 
- - Um conjunto estruturado de atividades necessárias para desenvolver um sistema de software
- - Existem vários processos de desenvolvimento de software diferentes, mas todos envolvem:
-   - Especificação: definição do quê o sistema deve fazer
-   - Projeto e implementação: definição da organização do sistema e implementação do sistema
-   - Validação: checagem de que o sistema faz o que o cliente deseja
-   - Evolução: evolução em resposta a mudanças nas necessidades do cliente
- - Um modelo de processo de desenvolvimento de software é uma representação abstrata de um processo. Ele apresenta uma descrição do processo de uma perspectiva em particular
+- Um conjunto estruturado de atividades necessárias para desenvolver um sistema de software
+- Existem vários processos de desenvolvimento de software diferentes, mas todos envolvem:
+  - Especificação: definição do quê o sistema deve fazer
+  - Projeto e implementação: definição da organização do sistema e implementação do sistema
+  - Validação: checagem de que o sistema faz o que o cliente deseja
+  - Evolução: evolução em resposta a mudanças nas necessidades do cliente
+- Um modelo de processo de desenvolvimento de software é uma representação abstrata de um processo. Ele apresenta uma descrição do processo de uma perspectiva em particular
 
 ## Descrições de processo de software
 
@@ -109,7 +109,7 @@
 - Descrições de processos também podem incluir:
   - Produtos, que são os resultados de uma atividade do processo
   - Papéis, que refletem as responsabilidades das pessoas envolvidas no processo
-  - Pré e pós-condições, que são declarações que são verdadeiras anes e depois de uma atividade do processo ser executado, ou um produto produzido
+  - Pré e pós-condições, que são declarações que são verdadeiras antes e depois de uma atividade do processo ser executado, ou um produto produzido
 
 # Processos dirigidos a planos e ágeis
 
@@ -126,21 +126,21 @@ Modelo dirigido a planos, Fases de especificação e desenvolvimento separadas e
 
 ### Fases do modelo cascata
 
-- Existem fases identificadas e separadas no odelo cascata:
+- Existem fases identificadas e separadas no modelo cascata:
   - Análise e definição de requisitos
   - Projeto de sistema e software
   - Implementação e teste de unidade
   - Integração e teste de sistema
   - Operação e manutenção
-- O principal inconveniente do modelo cascata é a dificuldadde de acomodação de mudanças depois que o processo já foi iniciado. Em princípio, uma fase precisa ser completada antes de se mover para a próxima fase.
+- O principal inconveniente do modelo cascata é a dificuldade de acomodação de mudanças depois que o processo já foi iniciado. Em princípio, uma fase precisa ser completada antes de se mover para a próxima fase.
 
 ### Problemas do modelo cascata
 
 - Divisão inflexível do projeto em estágios distintos, torna difícil responder às mudanças nos requisitos do cliente
-  - Por isso, esse odelo só é apropriado quando os requisitos são bem entendidos e as mudanças durante o processo de projeto serão limitadas
+  - Por isso, esse modelo só é apropriado quando os requisitos são bem entendidos e as mudanças durante o processo de projeto serão limitadas
   - Poucos sistemas de negócio possuem requisitos estáveis
 - O modelo cascata é mais usado em projetos de engenharia de grandes sistemas onde o sistema é desenvolvido em vários locais.
-  - Nessas circuntâncias, a natureza do modelo cascata dirigida a plano ajuda a coordenar o trabalho
+  - Nessas circunstâncias, a natureza do modelo cascata dirigida a plano ajuda a coordenar o trabalho
 
 ## Desenvolvimento Incremental.
 
@@ -160,7 +160,7 @@ Especificação, desenvolvimento e validação são intercaladas. Pode ser dirig
 - O processo não é visível
   - Gerentes precisam de entregar regulares para medir o progresso. Se os sistemas são desenvolvidos de forma rápida, não é viável do ponto de vista do custo produzir documentação para refletir todas as versões do sistema
 - A estrutura do sistema tende a degradar conforme novos incrementos são adicionados
-  - A menos que tempo e dinheiro sejam gastos na reconstrução para melhorar o software, as mudanças regulares tendem a comrromper a estrutura do sistmea. A incorporação posterios de mudanças no sosftware se torna progressivamente mais difícil e cara
+  - A menos que tempo e dinheiro sejam gastos na reconstrução para melhorar o software, as mudanças regulares tendem a corromper a estrutura do sistema. A incorporação posterior de mudanças no software se torna progressivamente mais difícil e cara
 
 ## Engenharia de software orientada a reúso
 
@@ -172,7 +172,7 @@ O sistema é montado a partir de componentes já existentes. Pode ser dirigido a
 - Baseada no reúso sistemático em que os sistemas são integrados com componentes existentes ou sistemas COTS(Commercial-off-the-shell)
 - Estágios do processos:
   - Análise de componentes
-  - Modificação de requisistos
+  - Modificação de requisitos
   - Projeto de sistema com reúso
   - Desenvolvimento e integração
 - Atualmente, o reúso é a abordagem padrão para a construção de vários tipos de sistemas de negócio
@@ -192,10 +192,10 @@ O sistema é montado a partir de componentes já existentes. Pode ser dirigido a
 ## Especificações de software
 
 - O processo de estabelecer quais serviços são necessários e as restrições na operação e desenvolvimento do sistema
-- O processos de engenharia de requisistos
+- O processos de engenharia de requisitos
   - Estudo da viabilidade: É técnica e financeiramente viável construir o sistema?
   - Elicitação e análise de requisitos: O que os stakeholders do sistema precisam ou esperam do sistema?
-  - Especificação de requisistos: Definicação dos requisitos em detalhes
+  - Especificação de requisitos: Definição dos requisitos em detalhes
   - Validação dos requisitos: Verificação da completude dos requisitos
 
 ## Projeto e implementação de software
@@ -210,15 +210,15 @@ O sistema é montado a partir de componentes já existentes. Pode ser dirigido a
 ## Atividades de projeto
 
 - Projeto de arquitetura, em que você identifica a estrutura geral do sistema, os componentes principais (as vezes chamados sub-sistemas ou módulos), seus relacionamentos e como são distribuídos
-- Projeto de interface, em que você define as interfaces entre os componenetes do sistema
-- Projeto de componenete, em que você projeta como cada componente do sistema irá operar separadamente
+- Projeto de interface, em que você define as interfaces entre os componentes do sistema
+- Projeto de componente, em que você projeta como cada componente do sistema irá operar separadamente
 - Projeto de banco de dados, em que você projeta as estruturas de dados do sistema e como essas serão representadas no banco de dados
 
 ## Validação de software
 
 - Verificação e validação (V & V) serve para mostrar que o sistema está em conformidade com sua especificação e está de acordo com os requisitos do cliente
 - Envolve processos de inspeção e revisão, e testes do sistema
-- Testes do sistema envolvem executar o sistema com casos de teste. São provenientes de especificações dos dados reais que deverão ser procesados pelo sistema
+- Testes do sistema envolvem executar o sistema com casos de teste. São provenientes de especificações dos dados reais que deverão ser processados pelo sistema
 - O teste é a atividade de V & V mais usada
 
 ## Estágios de teste
@@ -226,7 +226,7 @@ O sistema é montado a partir de componentes já existentes. Pode ser dirigido a
 ### Teste de desenvolmento ou de componente
 
 - Componentes individuais são testados independentemente
-- Componenetes podem ser funções ou objetos, ou agrupamentos coerentes dessas entidades
+- Componentes podem ser funções ou objetos, ou agrupamentos coerentes dessas entidades
 
 ### Teste de sistema
 
@@ -240,14 +240,13 @@ O sistema é montado a partir de componentes já existentes. Pode ser dirigido a
 
 - Os softwares são inerentemente flexíveis e podem mudar
 - Conforme os requisitos mudam, conforme mudam as circunstâncias do negócio, o software que dá suporte ao negócio também deve evoluir e mudar
-- Apesar de ter acontecido uma demarcação entre desenvolvimento e evolução (manutenção) essa precisa se torcar cada vez mais irrelevante já que tem diminuído a quantidade de sistemas completamente novos
+- Apesar de ter acontecido uma demarcação entre desenvolvimento e evolução (manutenção) essa precisa se tornar cada vez mais irrelevante já que tem diminuído a quantidade de sistemas completamente novos
 
 # Pontos importantes
 
-- Os processos de software são as ativiades envolvidas na produção de um sistema de software. Os modelos de processo de software são representações abstratas desses processos
+- Os processos de software são as atividades envolvidas na produção de um sistema de software. Os modelos de processo de software são representações abstratas desses processos
 - Modelos de processo gerais descrevem a organização dos processos de software. Exemplos desses processos geris incluem o modelo 'cascata', desenvolvimento incremental e desenvolvimento orientado a reúso
 - A engenharia de requisitos é o processo de desenvolver uma especificação de software
 - Processos de projeto e implementação se preocupam em transformar uma especificação de requisitos em um sistema de software executável
 - A validação de software é o processo de checar se o sistema está em conformidade com sua especificação e se esse está de acordo com as necessidades reais do usuário do sistema
 - A evolução de software ocorre quando você altera sistemas de software existentes para adequá-los a novas necessidades. O software precisa evoluir para continuar útil.
-
