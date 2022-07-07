@@ -44,3 +44,20 @@ Tipos de interação:
 _`"Cada plataforma possui um padrão de interface"`_
 
 ----------
+## Metas e Heurísticas de usabilidade
+
+### Metas de usabilidade
+- Eficácia
+- Eficiência
+- Segurança
+- Utilidade
+- Aprendizagem 
+- Memorabilidade
+
+### Princípios de Usabilidade
+- Visibilidade
+- Feedback
+- Restrições
+- Consistência
+- Affordance
+- Interatividade
