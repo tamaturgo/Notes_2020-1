@@ -97,14 +97,18 @@
 9. Help users recognize, diagnose and recover from errors (boas mensagens de erro)
 10. Help and documentation (ajuda e documentação)
 
-## Atividade
-- VIM
-- Emacs
-- GVIM
-- Emacs com menu
-- Bluefish
-- BrOffice
-- Word
+## 1ª Atividade
+- Avaliar as interfaces dos seguintes editores de texto:
+  - _VIM_
+  - _Emacs_
+  - _GVIM_
+  - _Emacs_ com menu
+  - _Bluefish_
+  - _BrOffice_
+  - _Word_
+- Dar notas de 0 à 10 para cada uma das metas: **eficácia**, **eficiência**, **segurança**, **utilidade**, **ser fácil de aprender**, **ser fácil de lembrar** 
+- A nota deve se referir ao objetivo fim das aplicações, que é a de editar textos
+- Para cada aplicação tirar a média das notas e comentar o resultado
 
 <br>
 
@@ -192,3 +196,91 @@
 - Protótipos que evoluem:
   - Reduzem o tempo e custo de desenvolvimento do produto final
   - Pode proporcionar testes de funcionalidades do sistema
+
+<br>
+
+## 2ª Atividade
+- Fazer um protótipo em baixa fidelidade do fluxo de telas das funcionalidades saldo e saque comumente encontradas em ATMs 
+- Gerar um relatório com suas observações sobre os fluxos
+- Atentar para uma boa comunicação entre o sistema e o usuário e evitar situações em que o fluxo fique em deadlock 
+- Procurar seguir as metas de usabilidade: **eficácia**, **eficiência**, **segurança**, **utilidade**, **ser fácil de aprender**, **ser fácil de lembrar**
+- Somente caminho feliz
+- Liberdade para o usuário sair em qualquer operação
+- Indicar qual botão e qual ação leva para a próxima tela
+- Pelo menos duas opções de verificação
+- Benchmarks:
+  - **Banco do Brasil**
+    - Tela inicial (sem cartão)
+    - Inserindo cartão
+    - Tela inicial com cartão, já na conta
+    - Saldo 
+      - Informando senha
+      - Confirmando operação
+      - Visualizando saldo em tela
+      - Finalizando operação
+    - Saque
+      - Informando senha
+      - Confirmando operação
+      - Informando valor
+      - Escolhendo cédulas
+      - Sacando
+  - **Bradesco**
+    - Tela inicial
+      - Acessibilidade
+      - Contatos para ajuda
+      - Botões laterais
+    - Tela de espera
+      - Mostra o status do sistema
+    - Menu completo
+      - Possibilidade de cancelamento
+    - Saldo
+      - Tela de espera
+      - Verificação das digitais
+        - Imagens que ajudam a guiar
+        - Indicação da posição do pulso
+      - Tela de espera
+      - Tela de exibição do saldo
+    - Menu completo
+    - Saque
+      - Verificação das digitais
+      - Tela para informar o valor
+        - Padrão de teclado telefônico
+      - Opções após o saque
+      - Tela de espera para contagem de notas
+      - Tela informando que as notas podem ser retiradas
+  - **Caixa**
+    - Tela inicial
+    - Solicitação em andamento
+    - Não aceitar ajuda de estranhos
+    - Aviso de serviços sujeitos à tarifa
+    - Saque
+      - Selecionar valor
+      - Digitar valor
+      - Senha silábica
+      - Tela de carregamento
+      - Retirar dinheiro
+      - Outra operação?
+    - Saldo
+      - Aguardar
+      - Imprimir comprovante
+      - Outra operação?
+  - **Itaú**
+    - Tela inicial
+    - Leitura do cartão
+    - Senha do cartão
+    - Digital
+    - Retirar o cartão
+    - Verificar saldo
+    - Escolher valor
+    - Data de nascimento
+    - Retirar dinheiro
+    - Encerramento de sessão
+  - **Santander**
+    - Notas disponíveis
+    - Serviços disponíveis
+    - Informar senha
+    - Propaganda
+    - Menu principal
+    - Saldo
+      - Código de segurança
+      - Saldo em tela
